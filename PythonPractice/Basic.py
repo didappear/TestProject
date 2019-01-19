@@ -2,6 +2,15 @@
 # -*- coding:utf-8 -*-
 # __author__ = "LJ"
 # Date: 2019/1/10
+
+s = '艾米'
+s1 = s.encode('utf-8') # encode过程
+s2 = s.encode('gbk') # encode过程
+print (s1)
+print (s2)
+
+
+
 '''
 # 1、使用while循环输入 1 2 3 4 5 6 8 9 10（没有7）
 i = 1
