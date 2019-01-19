@@ -6,7 +6,7 @@
 
  JMeter的结构图如下所示。这是一个三维空间，三维坐标轴分别是X、Y、Z。这张图来源于网络，在很多讲JMeter原理的文章中都可以看到，但是理解起来比较抽象，很难简单明了地看懂，我在此尝试描述一下。
 
-![img](JMeter02-JMeter内部原理.assets/auto-orient.jpeg)
+![img](JMeter02.assets/auto-orient.jpeg)
 
 X维度实际上是描述的是不同的组件，这些组件是独立的个体，我们依靠这些组件完成性能测试中负载的模拟，这些组件分别是：
 

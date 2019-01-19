@@ -23,11 +23,11 @@ JMeter安装步骤如下：
 
 进入Java 8的[下载地址](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)页面，如下图，选择适用于Mac OS的JDK版本，点击下载。
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient.png)
+![img](JMeter01.assets/auto-orient.png)
 
  下载完后，打开文件，进入安装页面，如下图。
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022055103.png)
+![img](JMeter01.assets/auto-orient-20190119022055103.png)
 
 安装过程非常简单，按“继续”按钮一直下一步即可。
 
@@ -40,7 +40,7 @@ JMeter安装步骤如下：
 
  我在终端（Terminal）中输入了这两句命令，如下图，可以看到，本机已经成功安装了Java 8。
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022059484.png)
+![img](JMeter01.assets/auto-orient-20190119022059484.png)
 
 ### 3、配置Java环境变量
 
@@ -66,11 +66,11 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
  如下图，环境变量就配置好了，分别输入esc（退出输入模式Insert Mode）、冒号（切换到底线命令模式Last line mode）、w（保存文件）、q（退出文件）、回车（执行命令），即可退出vim编辑器，并保存.bash_profile文件。
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022104183.png)
+![img](JMeter01.assets/auto-orient-20190119022104183.png)
 
 继续在终端中输入`source ~/.bash_profile`，作用是让这个配置文件在修改后立即生效，最后，输入`echo $JAVA_HOME`，当输出的JAVA_PATH正确时，证明环境变量已经配置成功了。
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022108634.png)
+![img](JMeter01.assets/auto-orient-20190119022108634.png)
 
 ### 4、安装JMeter
 
@@ -80,7 +80,7 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 - Source：源代码版，需要自己编译；
 
-  ![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022111802.png)
+  ![img](JMeter01.assets/auto-orient-20190119022111802.png)
 
 我们下载[apache-jmeter-5.0.tgz](http://mirrors.tuna.tsinghua.edu.cn/apache//jmeter/binaries/apache-jmeter-5.0.tgz)这个Binaries版本，下载完成后，解压，可以通过Finder（访达）页面双击这个文件解压，也可以通过终端输入`tar zxvf apache-jmeter-5.0.tgz`解压。
 
@@ -88,11 +88,11 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
  解压完成后，得到下面的目录文件：
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022116154.png)
+![img](JMeter01.assets/auto-orient-20190119022116154.png)
 
 进入到bin目录下，通过`sh jmeter`命令来启动JMeter，如下图
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022119670.png)
+![img](JMeter01.assets/auto-orient-20190119022119670.png)
 
 Don't use GUI mode for load testing：这是一段提示信息，不要使用GUI模式进行负载测试，要使用NON GUI模式
 
@@ -114,16 +114,16 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JMETER_HOME/l
 
  如下图：
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022123789.png)
+![img](JMeter01.assets/auto-orient-20190119022123789.png)
 
 退出vim编辑器，输入`source ~/.bash_profile`。接下来重点来了，直接在终端（任意目录）输入`jmeter`，即可启动JMeter。
- ![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022129319.png)
+ ![img](JMeter01.assets/auto-orient-20190119022129319.png)
 
 ### 7、更改JMeter语言为中文
 
  启动JMeter的GUI模式后，默认语言是英文，它也自带了几种语言，我们可以把JMeter切换成中文，从菜单栏中进行切换，方法如下图。Chinese（Simplified）的意思是中文（简体），Chinese（Traditional）的意思是中文（繁体）。
 
-![img](JMeter01-JMeter在Mac下的安装.assets/auto-orient-20190119022132927.png)
+![img](JMeter01.assets/auto-orient-20190119022132927.png)
 
 设置完成后，关闭JMeter，重新启动GUI模式，会发现，语言又变成英文了。所以如果要更改默认语言为中文，需要修改配置文件，即`/Users/stefan/MyProjects/tool/apache-jmeter-5.0/bin/jmeter.properties`这个文件。
 
