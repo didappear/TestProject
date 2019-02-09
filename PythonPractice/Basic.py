@@ -3,12 +3,61 @@
 # __author__ = "LJ"
 # Date: 2019/1/10
 
+import os
+
+'''
+with open('a.txt',mode='r',encoding='utf-8') as f_a, \
+        open('swap.txt',mode='w',encoding='utf-8') as f_swap:
+    # 循环 a.txt 每一行
+    for line in f_a:
+        if line.startswith('222'):
+            line = '11111\n'
+        f_swap.write(line)
+# 移除原 a.txt
+os.remove('a.txt')
+# f_swap 重命名为 a.txt
+os.rename('swap.txt','a.txt')
+
+'''
+
+
+# 补充：else的作用。for/while正常循环完成，else中打印循环成功提示信息
+
+# 光标定位
+
+# 函数
+def foo():
+    print("from foo")
+    return 1,[2,3],(4,5),{'k1':'v1'}
+
+a,b,c = foo()
+# print()
+# tail -f access.log
+
+
+
+
+
+'''
+f = open('testfile.txt',mode='r',encoding='utf-8')
+data1 = f.readline()
+data2 = f.readline()
+# print(data1)
+# print(data2)
+print(data1,end='')
+print(data2,end='')
+
+f.close()
+
 s = '艾米'
 s1 = s.encode('utf-8') # encode过程
-s2 = s.encode('gbk') # encode过程
+# s2 = s.encode('gbk') # encode过程
 print (s1)
-print (s2)
+# print (s2)
+s3 = s1.decode()
+print(s3)
 
+'''
 
 
 '''
