@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左侧菜单</title>
+    <style>
+        .left_page{
+            background-color: wheat;
+            width: 20%;
+            height: 1200px;
+            float: left;
+        }
+        .right_page{
+            background-color: lightgreen;
+            opacity: 0.5;
+            width: 80%;
+            height: 1200px;
+            float: left;
+        }
+        .item{
+            margin: 20px;
+        }
+        .title{
+            background-color: green;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+        }
+        .cont{
+            margin: 5px;
+        }
+        .hide{
+            display: none;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<div class="outer">
+    <div class="left_page">
+        <div class="item">
+            <div class="title">菜单一</div>
+            <div class="cont">
+                <p>子菜单1</p>
+                <p>子菜单2</p>
+                <p>子菜单3</p>
+                <p>子菜单4</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">菜单二</div>
+            <div class="cont  hide">
+                <p>子菜单1</p>
+                <p>子菜单2</p>
+                <p>子菜单3</p>
+                <p>子菜单4</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">菜单三</div>
+            <div class="cont hide">
+                <p>子菜单1</p>
+                <p>子菜单2</p>
+                <p>子菜单3</p>
+                <p>子菜单4</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="right_page"></div>
+</div>
+
+<script>
+    var eles_title = document.getElementsByClassName("title");
+
+    for (var i = 0; i<eles_title.length; i++) {
+        eles_title[i].onclick = function () {
+            // 1. 找到下一个兄弟标签，移除hide
+            this.nextElementSibling.classList.remove("hide");
+            // 2. 找到item下的所有子类，判断不是当前元素节点，给第二个子元素添加hide
+            // 原本没有时，删除不会报错；原本有，不会重复添加。
+            var arr_items = this.parentElement.parentElement.children;
+            // var current_item = this.parent; // 只有children导航节点不带Element
+            var current_item = this.parentElement;
+            for (var j=0;j<arr_items.length;j++){
+                if (arr_items[j] != current_item){
+                    arr_items[j].children[1].classList.add("hide");
+                }
+            }
+
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

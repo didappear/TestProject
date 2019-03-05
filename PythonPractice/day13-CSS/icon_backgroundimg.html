@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景图片的调整</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .box{
+            background-color: wheat;
+            width: 100px;
+            height: 40px;
+        }
+        /*内联标签设置长宽：1.使用float；2.display:inline-block*/
+        .search_area{
+            background-color: gray;
+            float: right;
+            width: 40px;
+            height: 40px;
+        }
+        .icon{
+            background: url("https://cloud.chouti.com/images/icon.png") 0px -197px;
+            float: left;
+            width: 11px;
+            height: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <a href="#" class="search_area">
+        <span class="icon"></span>
+    </a>
+</div>
+
+</body>
+</html>

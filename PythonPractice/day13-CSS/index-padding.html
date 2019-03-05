@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .outer{
+            margin: 0 auto;
+            width: 80%;
+
+        }
+
+        .content{
+            background-color: darkgrey;
+            height: 500px;
+
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .page-area{
+
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: #f0ad4e;
+
+        }
+
+        .page-area ul li{
+            display: inline-block;
+        }
+
+
+       .page-area ul li a ,.page-area ul li span{
+
+            display: inline-block;
+            color: #369;
+            height: 25px;
+            width: 25px;
+            text-align: center;
+            line-height: 25px;
+
+            padding: 8px;
+            margin-left: 8px;
+
+            border: 1px solid #e1e1e1;
+            border-radius: 15%;
+
+        }
+
+       .page-area ul li .page-next{
+           width: 70px;
+           border-radius:0
+       }
+
+
+       .page-area ul li span.current_page{
+           border: none;
+           color: black;
+           font-weight:900;
+       }
+
+       .page-area ul li a:hover{
+
+           color: #fff;
+           background-color: #2459a2;
+       }
+
+
+    </style>
+</head>
+<body>
+
+<div class="outer">
+
+<div class="content"></div>
+
+<div class="page-area">
+
+             <ul>
+
+                 <li><span class="current_page">1</span></li>
+                 <li><a href="#" class="page-a">2</a></li>
+                 <li><a href="#" class="page-a">3</a></li>
+                 <li><a href="#" class="page-a">4</a></li>
+                 <li><a href="#" class="page-a">5</a></li>
+                 <li><a href="#" class="page-a">6</a></li>
+                 <li><a href="#" class="page-a">7</a></li>
+                 <li><a href="#" class="page-a">8</a></li>
+                 <li><a href="#" class="page-a">9</a></li>
+                 <li><a href="#" class="page-a">10</a></li>
+                 <li><a href="#" class="page-a page-next">下一页</a></li>
+
+             </ul>
+
+</div>
+
+</div>
+
+</body>
+</html>

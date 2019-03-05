@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0565ee3-db6a-447d-8f99-75bb7b03ba66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TestAndroid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestAndroid.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01-JMeter-MacAnZhuang.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022055103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022059484.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022104183.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022108634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022111802.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022116154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022119670.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022123789.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022129319.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient-20190119022132927.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter01.assets/auto-orient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter02-JMeter-NeiBuYuanLi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Jmeter/JMeter02.assets/auto-orient.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20161012154848812-1060009743.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170513105345738-940570716.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170513105551254-1041243653.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170513105724566-1152892842.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170513105818347-833658268.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170513110221676-552724422.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170513110350894-1590323140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170513175903254-1065643094.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170909230621226-849802883.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170909231819835-978364800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170909232107397-1128690304.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170909233313413-773375905.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170910003301897-1606546897.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170910005004054-1900871107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170910005055179-994228295.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170910005215101-409196993.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170910005243522-289630322.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170922102734478-918776722.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20170922130238962-1916502463.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.assets/1036857-20180322000413870-802861053.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteBook/Python/day03.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonPractice/Basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPractice/Basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPractice/day09-progress/multiprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPractice/day09-progress/multiprocess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +18,13 @@
     <SUITE FILE_PATH="coverage/TestProject$SocketClient1.coverage" NAME="SocketClient1 Coverage Results" MODIFIED="1549629586899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
     <SUITE FILE_PATH="coverage/TestProject$sql_file_convert.coverage" NAME="sql_file_convert Coverage Results" MODIFIED="1548167494903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice" />
     <SUITE FILE_PATH="coverage/TestProject$ProcessPoolCallbackFunction.coverage" NAME="ProcessPoolCallbackFunction Coverage Results" MODIFIED="1549442594391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day09-progress" />
+    <SUITE FILE_PATH="coverage/TestProject$socketserver.coverage" NAME="socketserver Coverage Results" MODIFIED="1549911223086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day12-HTML" />
     <SUITE FILE_PATH="coverage/TestProject$day03_HanShu.coverage" NAME="day03-HanShu Coverage Results" MODIFIED="1548256694577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice" />
     <SUITE FILE_PATH="coverage/TestProject$client01.coverage" NAME="client01 Coverage Results" MODIFIED="1549095720941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice" />
     <SUITE FILE_PATH="coverage/TestProject$SocketClient_multithread1.coverage" NAME="SocketClient_multithread1 Coverage Results" MODIFIED="1549574233021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
     <SUITE FILE_PATH="coverage/TestProject$socketclient_udp.coverage" NAME="socketclient-udp Coverage Results" MODIFIED="1549699652845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
     <SUITE FILE_PATH="coverage/TestProject$SocketClient3.coverage" NAME="SocketClient3 Coverage Results" MODIFIED="1549568744817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
+    <SUITE FILE_PATH="coverage/TestProject$auth_proxy_timeout.coverage" NAME="auth&amp;proxy&amp;timeout Coverage Results" MODIFIED="1549815572109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APITest" />
     <SUITE FILE_PATH="coverage/TestProject$json_serialize.coverage" NAME="json_serialize Coverage Results" MODIFIED="1548662051917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day06-Packages" />
     <SUITE FILE_PATH="coverage/TestProject$multiprocess.coverage" NAME="multiprocess Coverage Results" MODIFIED="1549373198380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day09-progress" />
     <SUITE FILE_PATH="coverage/TestProject$SocketClient6.coverage" NAME="SocketClient6 Coverage Results" MODIFIED="1549452408874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day09-progress" />
@@ -72,12 +38,15 @@
     <SUITE FILE_PATH="coverage/TestProject$SocketClient_multithread.coverage" NAME="SocketClient_multithread Coverage Results" MODIFIED="1549574789534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
     <SUITE FILE_PATH="coverage/TestAndroid$Basic.coverage" NAME="Basic Coverage Results" MODIFIED="1547242464721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice" />
     <SUITE FILE_PATH="coverage/TestProject$udpsocketserver_multithreading.coverage" NAME="udpsocketserver-multithreading Coverage Results" MODIFIED="1549699650312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads/udp" />
+    <SUITE FILE_PATH="coverage/TestProject$request_cookie_session.coverage" NAME="request_cookie&amp;session Coverage Results" MODIFIED="1549810259466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APITest" />
     <SUITE FILE_PATH="coverage/TestProject$QueuePractice.coverage" NAME="QueuePractice Coverage Results" MODIFIED="1549375844216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day09-progress" />
     <SUITE FILE_PATH="coverage/TestProject$SocketServer_singlethreading.coverage" NAME="SocketServer_singlethreading Coverage Results" MODIFIED="1549574782734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
     <SUITE FILE_PATH="coverage/TestProject$socketserver_udp.coverage" NAME="socketserver-udp Coverage Results" MODIFIED="1549660445386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
+    <SUITE FILE_PATH="coverage/TestProject$request_get.coverage" NAME="request_get Coverage Results" MODIFIED="1549731404805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APITest" />
     <SUITE FILE_PATH="coverage/TestAndroid$Unittests_in_test01_py.coverage" NAME="Unittests in test01.py Coverage Results" MODIFIED="1546415084485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TestAndroid$jdapi.coverage" NAME="jdapi Coverage Results" MODIFIED="1547725591428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TestProject$service02.coverage" NAME="service02 Coverage Results" MODIFIED="1549097546340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice2" />
+    <SUITE FILE_PATH="coverage/TestProject$datatype.coverage" NAME="datatype Coverage Results" MODIFIED="1549783088628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day02-DataType" />
     <SUITE FILE_PATH="coverage/TestProject$SocketClient5.coverage" NAME="SocketClient5 Coverage Results" MODIFIED="1549568750812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
     <SUITE FILE_PATH="coverage/TestProject$Basic.coverage" NAME="Basic Coverage Results" MODIFIED="1548085291459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice" />
     <SUITE FILE_PATH="coverage/TestProject$.coverage" NAME="服务端 Coverage Results" MODIFIED="1549090314095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Volumes/TT/Python/day08-元类、socket-20170618/day8/网络编程1" />
@@ -87,6 +56,8 @@
     <SUITE FILE_PATH="coverage/TestProject$ExceptionPractice.coverage" NAME="ExceptionPractice Coverage Results" MODIFIED="1549202134152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day09-progress" />
     <SUITE FILE_PATH="coverage/TestProject$SocketClient6__1_.coverage" NAME="SocketClient6 (1) Coverage Results" MODIFIED="1549457823040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
     <SUITE FILE_PATH="coverage/TestProject$SocketClient4.coverage" NAME="SocketClient4 Coverage Results" MODIFIED="1549568747705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day10-threads" />
+    <SUITE FILE_PATH="coverage/TestProject$request_post.coverage" NAME="request_post Coverage Results" MODIFIED="1549803284798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APITest" />
+    <SUITE FILE_PATH="coverage/TestProject$request_session.coverage" NAME="request_session Coverage Results" MODIFIED="1549812115428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APITest" />
     <SUITE FILE_PATH="coverage/TestAndroid$jdapi002.coverage" NAME="jdapi002 Coverage Results" MODIFIED="1547725771858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TestProject$service01.coverage" NAME="service01 Coverage Results" MODIFIED="1549095670551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice" />
   </component>
@@ -108,80 +79,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/socketserverServer.py">
+        <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_BOM.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="304">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_BOM.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/left_menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="89" column="17" lean-forward="true" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonPractice/day15-JQuery/JQuery_selector sizer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonPractice/day15-JQuery/left_menu_jquery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/udp/udpsocketserver-multithreading.py">
+        <entry file="file://$PROJECT_DIR$/PythonPractice/day15-JQuery/table_select.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="290">
+              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socketserver.py">
+        <entry file="file://$PROJECT_DIR$/PythonPractice/day15-JQuery/switch_tab.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="199" column="39" selection-start-line="199" selection-start-column="39" selection-end-line="199" selection-end-column="39" />
-              <folding>
-                <element signature="e#16379#16943#0" />
-                <element signature="e#16970#19804#0" />
-              </folding>
+            <state relative-caret-position="-3">
+              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Volumes/TT/Python/day10-线程-20170702/day10/基于udp的socket/多线的udp服务端.py">
+        <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_modal dialog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/udp/socketclient-udp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketServer_multithreading.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="e#45#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="343">
+              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -193,6 +164,9 @@
       <list>
         <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -207,48 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jdapi002.py" />
-        <option value="$PROJECT_DIR$/../../songqin-testdev-master/webapi/code/apitest/webapi.py" />
-        <option value="$PROJECT_DIR$/SongQinAPITest/WebAPI.py" />
-        <option value="$PROJECT_DIR$/../../songqin-testdev-master/webapi/code/apitest/case001.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/testfile.txt" />
-        <option value="$PROJECT_DIR$/PythonPractice/a.txt" />
-        <option value="$PROJECT_DIR$/PythonPractice/Basic.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day03-函数.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day03-function.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day03.py" />
-        <option value="/Volumes/TT/Python/day03-字符、文件、函数-20170515/day3/函数/函数参数.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day03-HanShuJiChu.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/sql_file_convert.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/staff_table.emp" />
-        <option value="/Volumes/TT/Python/day04-函数-20170521/day4/上节课复习.py" />
-        <option value="/Volumes/TT/Python/day04-函数-20170521/day4/装饰器.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day03-HanShu.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day05-Function Module Packet.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day05-Function Module Package.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day06-Packages/json_serialize.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day07-Class/02-inherit packaging polymorphism.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day07-Class/metaclass.py" />
-        <option value="/Volumes/TT/Python/day08-元类、socket-20170618/day8/网络编程1/服务端.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice/client01.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice/service01.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice2/service02.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice2/client02.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day09-progress/a.txt" />
-        <option value="$PROJECT_DIR$/PythonPractice/day09-progress/ExceptionPractice.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day09-progress/b.txt" />
-        <option value="$PROJECT_DIR$/PythonPractice/day09-progress/multiprocess.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day09-progress/QueuePractice.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day09-progress/ProcessPoolCallbackFunction.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day09-progress/SocketClient1.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day09-progress/SocketServer.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketServer.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day07-Class/01-Class.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day10-threads/CoroutineGevent.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient_multithread1.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketServer_singlethreading00.py" />
-        <option value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient_multithread00.py" />
         <option value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient_multithread.py" />
         <option value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketServer_singlethreading.py" />
         <option value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketServer_multithreading.py" />
@@ -258,14 +190,56 @@
         <option value="$PROJECT_DIR$/PythonPractice/day10-threads/socketserver-udp.py" />
         <option value="$PROJECT_DIR$/PythonPractice/day10-threads/socketclient-udp.py" />
         <option value="$PROJECT_DIR$/PythonPractice/day10-threads/udp/udpsocketserver-multithreading.py" />
+        <option value="$PROJECT_DIR$/APITest/request_get.py" />
+        <option value="$PROJECT_DIR$/APITest/p1" />
+        <option value="$PROJECT_DIR$/PythonPractice/day02-DataType/datatype.py" />
+        <option value="$PROJECT_DIR$/APITest/request_cookie&amp;session.py" />
+        <option value="$PROJECT_DIR$/APITest/request_cookie.py" />
+        <option value="$PROJECT_DIR$/APITest/request_session.py" />
+        <option value="$PROJECT_DIR$/APITest/auth&amp;proxy&amp;timeout.py" />
+        <option value="$PROJECT_DIR$/PythonPractice/day12-HTML/socketserver.py" />
+        <option value="$PROJECT_DIR$/PythonPractice/day12-HTML/js_module.js" />
+        <option value="$PROJECT_DIR$/PythonPractice/day12-HTML/static/home.html" />
+        <option value="$PROJECT_DIR$/APITest/request_post.py" />
+        <option value="$PROJECT_DIR$/PythonPractice/day12-HTML/css_module.css" />
+        <option value="$PROJECT_DIR$/PythonPractice/day12-HTML/index.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/home.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/mystyle.css" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index-selector2.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/css_text.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index-display.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index-margin collapse.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index-padding.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index-float.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index-collapse.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index-collapse2.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/index-fix parent collapse.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/position-absolute relative.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/position-fixed.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day13-CSS/icon_backgroundimg.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/myjs.js" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/index.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_obj.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_func.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_func.js" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_BOM.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_BOM.js" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/left_menu.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_modal dialog box.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_modal dialog.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day15-JQuery/JQuery_selector sizer.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day15-JQuery/switch_tab.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day15-JQuery/left_menu_jquery.html" />
+        <option value="$PROJECT_DIR$/PythonPractice/day15-JQuery/table_select.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="293" />
-    <option name="y" value="42" />
-    <option name="width" value="1029" />
-    <option name="height" value="789" />
+    <option name="x" value="427" />
+    <option name="y" value="48" />
+    <option name="width" value="952" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -275,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,34 +259,48 @@
             <path>
               <item name="TestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestProject" type="462c0819:PsiDirectoryNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="day10-threads" type="462c0819:PsiDirectoryNode" />
+              <item name="day07-Class" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestProject" type="462c0819:PsiDirectoryNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="day10-threads" type="462c0819:PsiDirectoryNode" />
-              <item name="udp" type="462c0819:PsiDirectoryNode" />
+              <item name="day14-JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="day15-JQuery" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="/Volumes/TT/Python/day14-JS-20170730/day14/leftMenu.html" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -324,14 +311,18 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PythonPractice/day13-CSS" />
+      <recent name="$PROJECT_DIR$/PythonPractice/day13-CSS/static" />
+      <recent name="$PROJECT_DIR$/PythonPractice/day12-HTML/static" />
+      <recent name="$PROJECT_DIR$/APITest" />
+      <recent name="$PROJECT_DIR$/PythonPractice/day10-threads" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PythonPractice" />
+      <recent name="$PROJECT_DIR$/PythonPractice/day12-HTML" />
       <recent name="$PROJECT_DIR$/PythonPractice/day10-threads/udp" />
       <recent name="E:\PycharmProjects\TestAndroid\test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PythonPractice/day10-threads" />
-      <recent name="$PROJECT_DIR$/PythonPractice/day09-progress" />
-      <recent name="$PROJECT_DIR$/PythonPractice/day08-metaclass socket" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -346,8 +337,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.socketclient-udp">
-    <configuration name="SocketClient1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestProject/day12-HTML/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="auth&amp;proxy&amp;timeout" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestAndroid" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,12 +349,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonPractice/day10-threads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APITest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APITest/auth&amp;proxy&amp;timeout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,7 +363,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SocketClient2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="request_cookie&amp;session" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestAndroid" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,12 +371,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonPractice/day10-threads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APITest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APITest/request_cookie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,7 +385,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="socketclient-udp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="request_session" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestAndroid" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,12 +393,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonPractice/day10-threads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APITest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/day10-threads/udp/socketclient-udp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APITest/request_session.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -413,7 +407,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="socketserver-udp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="socketserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestAndroid" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,34 +415,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonPractice/day10-threads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonPractice/day12-HTML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/day10-threads/socketserver-udp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="udpsocketserver-multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestAndroid" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonPractice/day10-threads/udp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/day10-threads/udp/udpsocketserver-multithreading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/day12-HTML/socketserver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,19 +454,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.SocketClient1" />
-      <item itemvalue="Python.SocketClient2" />
-      <item itemvalue="Python.socketserver-udp" />
-      <item itemvalue="Python.socketclient-udp" />
-      <item itemvalue="Python.udpsocketserver-multithreading" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Python.request_cookie&amp;session" />
+      <item itemvalue="Python.request_session" />
+      <item itemvalue="Python.auth&amp;proxy&amp;timeout" />
+      <item itemvalue="Python.socketserver" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.socketclient-udp" />
-        <item itemvalue="Python.udpsocketserver-multithreading" />
-        <item itemvalue="Python.socketserver-udp" />
-        <item itemvalue="Python.SocketClient2" />
-        <item itemvalue="Python.SocketClient1" />
+        <item itemvalue="Python.socketserver" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Python.auth&amp;proxy&amp;timeout" />
+        <item itemvalue="Python.request_session" />
+        <item itemvalue="Python.request_cookie&amp;session" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +485,10 @@
       <workItem from="1548328409635" duration="7354000" />
       <workItem from="1548662027349" duration="1826000" />
       <workItem from="1548865051024" duration="53671000" />
-      <workItem from="1549697561441" duration="1199000" />
+      <workItem from="1549697561441" duration="11492000" />
+      <workItem from="1549777208464" duration="35183000" />
+      <workItem from="1550212523702" duration="32059000" />
+      <workItem from="1550371651058" duration="55166000" />
     </task>
     <servers />
   </component>
@@ -550,7 +525,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86730000" />
+    <option name="totallyTimeSpent" value="219431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,16 +537,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="63" width="1184" height="768" extended-state="0" />
+    <frame x="427" y="48" width="952" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22591944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22747253" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26952526" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39816234" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32847896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32038835" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39644012" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -589,18 +564,18 @@
       <window_info anchor="right" id="SciView" order="5" weight="0.32936978" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1874311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25243902" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26952526" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32847896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32038835" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39644012" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32924962" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -640,389 +615,384 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Volumes/TT/Python/day08-元类、socket-20170618/day8/元类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice/client01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice/service01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day06-Packages/json_serialize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day05-Function Module Package.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/TT/Python/day08-元类、socket-20170618/day8/网络编程1/服务端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/TT/Python/day08-元类、socket-20170618/day8/网络编程1/客户端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/TT/Python/day08-元类、socket-20170618/day8/网络编程/服务端.py">
+    <entry file="file://$PROJECT_DIR$/jdapi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///Volumes/TT/Python/day08-元类、socket-20170618/day8/网络编程3/服务端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice2/service02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#46#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day08-metaclass socket/SocketPractice2/client02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#45#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/TT/Python/day09-进程-20170625/day9/异常处理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/ExceptionPractice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/b.txt">
+    <entry file="file://$PROJECT_DIR$/jdapi002.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///Volumes/TT/Python/day10-线程-20170702/day10/上节课复习.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+        <state relative-caret-position="41">
+          <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Volumes/TT/Python/day08-元类、socket-20170618/day8/网络编程3/客户端.py">
+    <entry file="file://$PROJECT_DIR$/APITest/postfile1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/SocketClient2.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="25">
+          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/SocketClient3.py">
+    <entry file="file://$PROJECT_DIR$/APITest/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/util/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="4">
+          <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/SocketClient4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/SocketClient5.py">
+    <entry file="file://$PROJECT_DIR$/APITest/request_session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/QueuePractice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/multiprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        <state relative-caret-position="245">
+          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
           <folding>
-            <element signature="e#45#80#0" expanded="true" />
+            <element signature="e#57#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/ProcessPoolCallbackFunction.py">
+    <entry file="file://$PROJECT_DIR$/APITest/request_cookie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="81" column="11" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+        <state relative-caret-position="-16">
+          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding>
-            <element signature="e#44#84#0" expanded="true" />
+            <element signature="e#46#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/SocketClient6.py">
+    <entry file="file://$PROJECT_DIR$/APITest/request_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="74" selection-start-line="74" selection-end-line="77" selection-end-column="16" />
+          <folding>
+            <element signature="e#1898#1913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day02-DataType/datatype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day12-HTML/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APITest/auth&amp;proxy&amp;timeout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APITest/request_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day12-HTML/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/SocketClient1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="171">
+          <caret line="9" column="14" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
           <folding>
             <element signature="e#45#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day12-HTML/js_module.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day12-HTML/css_module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-selector1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-padding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-margin collapse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-display.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/css_text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-selector2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day12-HTML/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#929#936#0" expanded="true" />
+            <element signature="e#941#949#0" expanded="true" />
+            <element signature="e#954#960#0" expanded="true" />
+            <element signature="e#4935#4967#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonPractice/day09-progress/SocketServer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="28">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#45#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient6.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-fix parent collapse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="158">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient3.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-collapse2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day07-Class/01-Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/CoroutineGevent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-482">
-          <caret line="70" column="4" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient_multithread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="-10">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/index-collapse1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="31" selection-end-column="12" />
           <folding>
-            <element signature="e#44#57#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketServer_singlethreading.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/position-absolute relative.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="603">
+          <caret line="34" column="3" lean-forward="true" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient_multithread00.py">
+    <entry file="file:///Volumes/TT/Python/day13-CSS-20170723/day13/返回顶部.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="e#45#73#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-9">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketServer_singlethreading00.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/position-fixed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="330">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Volumes/TT/Python/day09-进程-20170625/day9/socket服务端.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day13-CSS/icon_backgroundimg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#41#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="355">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Volumes/TT/Python/day09-进程-20170625/day9/socket客户端1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="524" column="8" selection-start-line="524" selection-start-column="8" selection-end-line="524" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/TT/Python/day10-线程-20170702/day10/基于udp的socket/客户端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/socketserver-udp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/socketserverServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/TT/Python/day10-线程-20170702/day10/基于udp的socket/服务端.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/myjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketClient1.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_obj.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="358">
+          <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/udp/socketclient-udp.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="343">
+          <caret line="114" column="12" lean-forward="true" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/SocketServer_multithreading.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_func.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_func.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
           <folding>
-            <element signature="e#45#58#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socketserver.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_BOM.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="199" column="39" selection-start-line="199" selection-start-column="39" selection-end-line="199" selection-end-column="39" />
+        <state relative-caret-position="304">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_BOM.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#16379#16943#0" />
-            <element signature="e#16970#19804#0" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///Volumes/TT/Python/day10-线程-20170702/day10/基于udp的socket/多线的udp服务端.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_modal dialog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="343">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice/day10-threads/udp/udpsocketserver-multithreading.py">
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/js_modal dialog box.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="375">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day14-JavaScript/left_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="89" column="17" lean-forward="true" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day15-JQuery/JQuery_selector sizer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day15-JQuery/switch_tab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day15-JQuery/left_menu_jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice/day15-JQuery/table_select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
         </state>
       </provider>
     </entry>

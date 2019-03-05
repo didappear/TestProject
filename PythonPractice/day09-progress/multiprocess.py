@@ -11,8 +11,8 @@ import time
 #     time.sleep(random.randint(1,3))
 #     print("%s has piaoed" %name)
 #
-# p1 = Process(target=piao, args=("adler",), name="<adler_piao>")
-# p1.start()
+# postfile1.txt = Process(target=piao, args=("adler",), name="<adler_piao>")
+# postfile1.txt.start()
 # print("主进程")
 #
 # # 创建进程，方式2

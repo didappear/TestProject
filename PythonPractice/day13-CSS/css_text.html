@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<style>
+    h1{
+        text-align: center;
+    }
+    p.publish_time{
+        text-align: left;
+    }
+    p.content{
+        text-align: justify;
+        background-image: url("static/flower.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    p.note{
+        background-color: cornflowerblue;
+    }
+    div.div_background{
+        width: 300px;
+        height: 300px;
+        background-image: url("static/flower.jpg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        border-style: dashed;
+        border-color: chartreuse;
+        border-width: 20px;
+        border-top-style: dotted;
+        border-bottom-style: solid;
+    }
+    ul{
+        list-style-type: square;
+        list-style-position: inside;
+        list-style-image: url("static/reddot.png");
+    }
+    div.textattr{
+        color: magenta!important;
+        background-color: wheat;
+        text-align: center;
+        height: 200px;
+        line-height: 200px;
+    }
+    div img{
+        /*vertical-align: bottom;*/
+        vertical-align: -20px;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css文本属性</title>
+</head>
+<body>
+<h2>css水平居中</h2>
+<p class="publish_time">2000年1月11日</p>
+<p class="content">
+    有个落拓不得志的中年人每隔三两天就到教堂祈祷，而且他的祷告词几乎每次都相同。第一次他到教堂时，
+    跪在圣坛前，虔诚地低语：“上帝啊，请念在我多年来敬畏您的份上。让我中一次彩票吧！阿门。”
+    几天后，他又垂头丧气回到教堂，同样跪着祈祷：“上帝啊，为何不让我中彩票？我愿意更谦卑地来
+    服侍你，求您让我中一次彩票吧！阿门。”又过了几天，他再次出现在教堂，同样重复他的祈祷。如此周而
+    复始，不间断地祈求着。到了最后一次，他跪着：“我的上帝，为何您不垂听我的祈求？让我中一次彩票吧！
+    只要一次，让我解决所有困难，我愿终身奉献，专心侍奉您……”就在这时，圣坛上发出一阵宏伟庄严的声
+    音：“我一直垂听你的祷告。可是最起码？你也该先去买一张彩票吧!”
+</p>
+
+<p id="notice" class="note"><strong>注意：</strong>重置浏览器窗口大小查看 &quot;justify&quot; 是如何工作的</p>
+
+<div class="div_background">
+    <span>精灵有蓝色的眼睛</span>
+    <span>人类有棕色的眼睛</span>
+</div>
+
+<ul>
+    <li>列表标题1</li>
+    <li>定义列表项1</li>
+    <li>定义列表项2</li>
+    <li>定义列表项3</li>
+</ul>
+
+<ul>
+    <li>列表标题2</li>
+    <li>定义列表项1</li>
+    <li>定义列表项2</li>
+    <li>定义列表项3</li>
+</ul>
+
+<div class="textattr" style="color: cornflowerblue">div行高设置
+    <img src="static/flower.jpg" width="80">
+
+</div>
+<br>
+
+
+</body>
+</html>

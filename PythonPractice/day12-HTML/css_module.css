@@ -1,0 +1,32 @@
+body
+{
+    background-color: antiquewhite;
+}
+h1
+{
+    color: lightseagreen;
+    text-align: center;
+}
+h2
+{
+    color: lightsalmon;
+    text-align: center;
+}
+p
+{
+    font-family: "Times New Roman";
+    font-size: 18px;
+
+}
+div
+{
+    background-color: lightpink;
+    text-align: right;
+    font-size: 10px;
+}
+span
+{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 30px;
+}

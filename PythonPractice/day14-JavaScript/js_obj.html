@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js对象</title>
+    <script>
+        // 字符串
+        // var str1 = "Hello World";
+        // var str2 = new String(" welcome to the world of JS! ");
+        // console.log(str1.length);
+        // console.log(str1.toLowerCase());
+        // console.log(str1.toUpperCase());
+        // // 只去除两边空白
+        // console.log(str2.trim());
+        // console.log(str1.charAt(2));
+        // console.log(str1.indexOf('l'));
+        // console.log(str1.lastIndexOf('l'));
+        // // 返回匹配字符串的数组，没有则返回null。
+        // // ["lo", index: 3, input: "Hello World", groups: undefined]
+        // console.log(str1.match("lo"));
+        // // 返回匹配字符串的首字符位置索引
+        // console.log(str1.search('lo'));
+        // // (开始位置，步长)
+        // console.log(str1.substr(2,5));
+        // // (开始位置，结束位置)
+        // console.log(str1.substring(2,5));
+        // console.log(str1.slice(2,4));
+        // console.log(str1.slice(4));
+        // console.log(str1.slice(2,-1));
+        // console.log(str1.slice(-3,-1));
+        // console.log(str2.replace("JS","python"));
+        // console.log(str2.split(" "));
+        // console.log(str1.concat("hello js"));
+
+
+        // 数组
+        // 数组的创建
+        // var arr1 = ["周一","周二","周三","周四","周五",["a","b"],1,2,3];
+        // var arr2 = new Array("周一","周二","周三","周四","周五");
+        // console.log(arr1);
+        // var newweek = new Array(2);
+        // for (var i=0;i<=1;i++){
+        //     newweek[i] = new Array(2)
+        // }
+        // newweek[0][0]="周日";
+        // newweek[0][1]="Sunday";
+        // newweek[1][0]="周一";
+        // newweek[1][1]="Monday";
+        // console.log(newweek)
+
+
+        // var str1 = arr1.join("--");
+        // console.log(str1)
+        //
+        // var arr_a = ["a",1,"b",2];
+        // var arr_b = arr_a.concat("c",3);
+        // console.log(arr_a);
+        // // ["a", 1, "b", 2, "c", 3]
+        // console.log(arr_b);
+        // // 翻转排序
+        // console.log(arr_a.reverse());
+        // // 按每个元素首位的ASCII码排序
+        // console.log(arr_a.sort());
+        //
+        // function intSort(a,b) {
+        //     return a-b;
+        // }
+        // arr_tosort = [222,122,89,18,26];
+        // // [122, 18, 222, 26, 89]
+        // console.log(arr_tosort.sort());
+        // arr_sorted = arr_tosort.sort(intSort);
+        // // [18, 26, 89, 122, 222]
+        // console.log(arr_sorted);
+        //
+        // var arr1=['a','b','c','d','e','f','g','h'];
+        // console.log(arr1.slice(2,4));
+        // console.log(arr1.slice(4));
+        // console.log(arr1.slice(2,-1));
+        // // ["d", "e", "f", "g"]
+        // console.log(arr1.slice(-5,-1));
+
+        // var a = [1,2,3,4,5,6,7,8];
+        // console.log(a.splice(1,2)); // [2, 3]
+        // console.log(a) // [1, 4, 5, 6, 7, 8]
+        // console.log(a.splice(1,1)); // [4]
+        // console.log(a) // [1, 5, 6, 7, 8]
+        // console.log(a.splice(1,2,22,33)); // [5, 6]
+        // console.log(a) // [1, 22, 33, 7, 8]
+
+        // var arr1 = [1,2,3];
+        // arr1.push("a","b")
+        // console.log(arr1);
+        // arr1.push("c","d")
+        // console.log(arr1);
+        // arr1.pop();
+        // console.log(arr1);
+        //
+        // var arr2 = [1,2,3];
+        // arr2.unshift("55","66");
+        // console.log(arr2);
+        // arr2.unshift("11","22");
+        // console.log(arr2);
+        // arr2.shift();
+        // console.log(arr2);
+        // /* 输出结果
+        // [1, 2, 3, "a", "b"]
+        // [1, 2, 3, "a", "b", "c", "d"]
+        // [1, 2, 3, "a", "b", "c"]
+        // ["55", "66", 1, 2, 3]
+        // ["11", "22", "55", "66", 1, 2, 3]
+        // ["22", "55", "66", 1, 2, 3]
+        // */
+
+        // //Date对象
+        // var nowd1 = new Date();
+        // console.log(nowd1.toLocaleString());
+        // var nowd2 = new Date("2001/2/9 11:02");
+        // // Fri Feb 09 2001 11:02:00 GMT+0800 (中国标准时间)
+        // console.log(nowd2);
+        // // 2001/2/9 -- 只显示年月日
+        // console.log(nowd2.toLocaleDateString());
+        // // Fri, 09 Feb 2001 03:02:00 GMT --与中国时间相差8个小时
+        // console.log(nowd2.toUTCString());
+        // var nowd3 = new Date("04/03/20 11:02");
+        // // 2020/4/3 上午11:02:00
+        // console.log(nowd3.toLocaleString());
+        // var nowd3_1 = new Date("2004/03/20 11:02");
+        // // 2004/3/20 上午11:02:00
+        // console.log(nowd3_1.toLocaleString());
+        // var nowd4 = new Date(5000);
+        // console.log(nowd4.toLocaleString());
+        // var nowd6 = new Date(2000,11,1,6,30,10,3);
+        // // 2000/12/1 上午6:30:10
+        // console.log(nowd6.toLocaleString());
+
+        // var d = new Date("2020-10-12 09:20:30");
+        // d.getDay();
+        // console.log(d.getDay());
+        // console.log(d.getDate());
+        // console.log(d.getFullYear());
+        // console.log(d.getHours());
+        // console.log(d.getSeconds());
+        // console.log(d.getMilliseconds());
+        // console.log(d.getTime());
+
+
+        // function parseWeek(week) {
+        //     var week_arr=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+        //     return week_arr[week];
+        // }
+        //
+        // function changeNum(num) {
+        //     if (num < 10){
+        //         return "0"+num;
+        //     } else {
+        //       return num;
+        //     }
+        // }
+        //
+        // function getCurrenDate() {
+        //     var cd = new Date();
+        //     var year = cd.getFullYear();
+        //     var month = cd.getMonth();
+        //     var day = cd.getDate();
+        //     var hour = cd.getHours();
+        //     var min = cd.getMinutes();
+        //     var sec = cd.getSeconds();
+        //     var week = cd.getDay();
+        //     return year+"年"+month+"月"+day+"日"+" "+hour+":"+min+":"+sec+" "+parseWeek(week);
+        //
+        // }
+        // today = getCurrenDate();
+        // td = new Date();
+        // console.log(td);
+        // console.log(td.getTimezoneOffset());
+        // console.log(td.toUTCString());
+        // console.log(td.toLocaleString());
+        // console.log(Date.parse(td));
+        // console.log(Date.UTC(td));
+
+        // 获取1-100的随机整数，包括1和100
+        var num = Math.random();
+        num = num*100+1;
+        num = Math.round(num);
+        console.log(num);
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

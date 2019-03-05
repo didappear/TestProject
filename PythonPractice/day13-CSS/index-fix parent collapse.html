@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            border: 1px solid blue;
+        }
+        .r1{
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            float: left;
+        }
+        .r2{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            float: left;
+        }
+        /*在浮动的盒子box中的最后放一个块级标签：内容为空，有clear:both属性
+        缺点：只起控制功能，不作为网页显示。不应该让人看源码的时候看见它
+        优化：为盒子box添加一个.clearfix:after伪类标签，该标签在盒子box中的最后面。
+        后面需要解决父级塌陷问题的标签，只要在class属性中加上clearfix即可
+        */
+        /*.r3{clear: both;}*/
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="box clearfix">
+    <div class="r1">r1</div>
+    <div class="r2">r2</div>
+    <!--<div class="r3"></div>-->
+</div>
+<div class="footer">
+    footer
+</div>
+
+</body>
+</html>

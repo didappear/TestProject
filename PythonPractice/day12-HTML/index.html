@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="Refresh" content="4;URL=http://www.douban.com"/>-->
+    <meta name="keywords" content="meta总结,html mtea,meta属性"/>
+    <meta name="description" content="meta标签的name属性"/>
+    <title>Index Page索引页</title>
+    <!--title左边的小图标-->
+    <link rel="icon" href="http://www.jd.com/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css_module.css">
+    <script src="js_module.js"></script>
+    <base target="_blank">
+</head>
+<body>
+
+<h1>well done! amy</h1>
+<p>这是一个段落。包裹的内容被换行。并且也上下内容之间有一行空白。
+    这是一个段落。包裹的内容被换行。并且也上下内容之间有一行空白。
+    这是一个段落。包裹的内容被换行。并且也上下内容之间有一行空白。
+</p>
+<b>加粗</b> <br>
+<strong>加粗</strong> <br>
+<strike>为文字加一条中线</strike> <br>
+<em>斜体</em> <br>
+正常字体<sub>下标2222</sub> <br>
+正常字体<sup>上标aaaa</sup> <br>
+<br>
+<br>
+
+
+<h1>特殊字符</h1>
+<hr>
+特殊字符&lt;<br>
+特殊字符&gt;<br>
+特殊字符&quot;<br>
+特殊字符&copy;<br>
+特殊字符&reg;<br>
+&amp;<br>
+&plusmn;<br>
+&times;<br>
+&divide;<br>
+&sup2;<br>
+
+
+<h1>这是一个html中的h1标题。</h1>
+<p>这是一个html中的文本。</p>
+
+<h1>块级元素和行内元素</h1>
+块级元素div
+<hr>
+<div>
+    <h1>这是一个在 div 元素中的标题。</h1>
+    <p>这是一个在 div 元素中的文本。</p>
+</div>
+<br>
+<p><div>块级元素，另起一行开始渲染</div>
+    精灵有<div style="background-color: #a49cd0;color: deepskyblue;font-weight: bolder">蓝色的</div>眼睛。
+    人类有<div style="background-color: #a49cd0;color: brown;font-weight: bold">棕色的</div>眼睛
+</p>
+<br>
+行内元素span
+<hr>
+<p><span>行内元素，渲染不需要另起一行</span>
+    精灵有<span style="color: deepskyblue;font-weight: bolder">蓝色的</span>眼睛。
+    人类有<span style="color: brown;font-weight: bold">棕色的</span>眼睛
+</p>
+
+
+<h1>图片标签</h1>
+<p>宽高两个属性只用一个会自动等比缩放</p>
+<img src="static/cat.jpg" alt="图片加载失败" title="龙猫" width="200" height="200">
+
+
+<h1>超链接标签(锚标签)</h1>
+<a href="http://www.douban.com">绝对url-这是豆瓣的网址</a> <br>
+<a href="home.html">相对 URL - 指当前站点中确切的路径</a> <br>
+<a href="#top">锚 URL - 指向页面中的锚</a> <br>
+<a href="#createAnchor">点击跳转到 锚点createAnchor 的位置</a>
+<br>
+通过创建锚点，可以快速定位到目标内容区域
+
+
+
+
+
+<h1>列表标签</h1>
+<ul type="disc">
+    <li><hr/>li标签之间相当于一个容器，可以嵌套任意标签<span>比如这里添加一个span标签</span></li>
+    <li>无序列表1</li>
+    <li>无序列表2</li>
+    <li>无序列表3</li>
+</ul>
+
+<ol>
+    <li>有序列表1</li>
+    <li>有序列表2</li>
+    <li>有序列表3</li>
+</ol>
+
+<dl>
+    <dt>定义列表-标题</dt>
+    <dd>列表项1</dd>
+    <dd>列表项2</dd>
+    <dd>列表项3</dd>
+    <dt>定义列表-标题2</dt>
+    <dd>列表项1</dd>
+    <dd>列表项2</dd>
+    <dd>列表项3</dd>
+</dl>
+
+<h2 id="createAnchor">锚点createAnchor</h2>
+<hr/>
+创建锚点分两步：
+<br>
+1.为锚点创建id并赋值createAnchor
+<br>
+2.将超链接文本与锚点的id关联，&lt; a href="#id名称"&gt; 超链接文本 &lt;/a&gt;
+
+<h1>表格</h1>
+<table border="2" cellpadding="2" cellspacing="5" aria-rowspan="0" aria-colspan="2">
+    <th colspan="6">表格头部单元格</th>
+    <tr>
+        <th>动物</th>
+        <td>小白兔</td>
+        <td>老虎</td>
+        <td>狮子</td>
+        <td>大象</td>
+    </tr>
+    <tr>
+        <th>水果</th>
+        <td>苹果</td>
+        <td>石榴</td>
+        <td>菠萝</td>
+        <td>柠檬</td>
+        <td>柠檬</td>
+    </tr>
+    <tr>
+        <th>水果</th>
+        <td>苹果</td>
+        <td>石榴</td>
+        <td>菠萝</td>
+        <td>柠檬</td>
+        <td>柠檬</td>
+    </tr>
+</table>
+
+<br>
+
+
+<table border="4" cellpadding="20" cellspacing="10" width="600" style="border-color: deeppink">
+    <th colspan="3">星期一菜谱</th>
+    <tr >
+        <th rowspan="2">青菜</th>
+        <td>清炒茄子</td>
+        <td>扁豆</td>
+    </tr>
+    <tr>
+        <td>小葱豆腐</td>
+        <td>炒白菜</td>
+    </tr>
+    <tr>
+        <th rowspan="2">荤菜</th>
+        <td>大虾</td>
+        <td>鱼翅</td>
+    </tr>
+    <tr>
+        <td>红烧肉<img src="static/cat.jpg" alt="加载失败" title="红烧肉" width="100" border="2" style="border-color: plum"></td>
+        <td>烤全羊</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="4" style="border-color: deepskyblue">
+    <tr>
+        <th>项目</th>
+        <th colspan="5">上课</th>
+        <th colspan="2">休息</th>
+    </tr>
+    <tr>
+        <th>星期</th>
+        <td>星期1</td>
+        <td>星期2</td>
+        <td>星期3</td>
+        <td>星期4</td>
+        <td>星期5</td>
+        <td>星期6</td>
+        <td>星期7</td>
+    </tr>
+    <tr>
+        <th rowspan="4">上午</th>
+        <td>语文</td>
+        <td>数学</td>
+        <td>英语</td>
+        <td>英语</td>
+        <td>物理</td>
+        <td>计算机</td>
+        <th rowspan="4">休息</th>
+    </tr>
+    <tr>
+        <td>数学</td>
+        <td>数学</td>
+        <td>地理</td>
+        <td>历史</td>
+        <td>化学</td>
+        <td>计算机</td>
+    </tr>
+    <tr>
+        <td>数学</td>
+        <td>数学</td>
+        <td>地理</td>
+        <td>历史</td>
+        <td>化学</td>
+        <td>计算机</td>
+    </tr>
+    <tr>
+        <td>数学</td>
+        <td>数学</td>
+        <td>地理</td>
+        <td>历史</td>
+        <td>化学</td>
+        <td>计算机</td>
+    </tr>
+    <tr>
+        <th rowspan="2">下午</th>
+        <td>语文</td>
+        <td>数学</td>
+        <td>英语</td>
+        <td>英语</td>
+        <td>物理</td>
+        <td>计算机</td>
+        <th rowspan="2">休息</th>
+    </tr>
+    <tr>
+        <td>数学</td>
+        <td>数学</td>
+        <td>地理</td>
+        <td>历史</td>
+        <td>化学</td>
+        <td>计算机</td>
+    </tr>
+
+
+</table>
+
+
+<h1>表格结构</h1>
+<table border="2" cellspacing="10" cellpadding="5" style="border-color: lightcoral">
+    <caption >表格标题标签</caption>
+    <thead>
+    <tr>
+        <th>属性名称</th>
+        <th>含义</th>
+        <th>取值</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>colspan</td>
+        <td>向右横跨几列</td>
+        <td>数值</td>
+    </tr>
+    <tr>
+        <td>rowspan</td>
+        <td>向下横跨几行</td>
+        <td>数值</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<h1>form表单1</h1>
+<form action="index.html" method="post">
+    <input type="text" name="name用于和服务器通信使用" value="初始值" readonly="readonly">
+    <input type="password">
+    <input type="radio" value=" 定义与输入相关联的值">
+    <input type="checkbox" checked="checked">
+    <input type="submit" value="提交按钮">
+    <input type="submit" disabled="disabled">
+    <input type="reset">
+
+</form>
+
+
+<h1>form表单2</h1>
+用户名：<input type="text" maxlength="16" value="初始值">
+<br>
+
+密   码：<input type="password" value="123">
+<br>
+
+性别：
+<input type="radio" name="sex" checked="checked">男
+<input type="radio" name="sex">女
+<br>
+
+爱好：
+<input type="checkbox" name="hobby" value="与输入相关联的值" >3C
+<input type="checkbox" name="hobby">看书
+<br>
+
+三剑客：
+<input type="radio" checked="checked" >HTML
+<input type="radio" value="与输入相关联的值">CSS
+<input type="radio">JS
+<br>
+
+<input type="button" value="普通按钮">
+<br>
+<input type="submit" value="提交按钮">
+<br>
+<input type="reset" value="重置按钮">
+<br>
+<input type="image" src="static/cat.jpg" width="80" value="图片形式的提交按钮">图片形式的提交按钮
+<br>
+请选择文件：<input type="file">
+<br>
+<br>
+<br>
+
+
+<h1>label标签</h1>
+<label>点击此处文本，用户名输入框会获取焦点<br>
+    <input type="text">
+</label>
+<br>
+<label for="#two">点击此处文本，密码输入框会获取焦点</label>
+<br>
+用户名：<input type="text">
+<br>
+密码：<input type="password" id="#two">
+</body>
+</html>
+
+
+<h1>textarea 文本域标签</h1>
+备注：
+<br>
+<textarea></textarea>
+
+
+<h1>下拉菜单</h1>
+设置城市：
+<select>
+    <option>选择省份</option>
+    <option>北京</option>
+    <option>天津</option>
+    <option>河北</option>
+    <option>山东</option>
+</select>
+<select>
+    <option selected="selected">东城区</option>
+    <option>西城区</option>
+    <option>朝阳区</option>
+    <option>海淀区</option>
+</select>
+
+
+<h1>form 表单域</h1>
+<form action="https://www.baidu.com" method="post" name="userInfo">
+    用户名：<input type="text" maxlength="16">
+    <br>
+    密码：<input type="password">
+    <br>
+    性别：<input type="radio" name="gender" checked="checked">男
+    <input type="radio" name="gender">女
+    <br>
+    <input type="button" value="普通按钮button">
+    <input type="submit" value="提交按钮submit">
+    <input type="reset" value="重置按钮reset">
+    <br>
+    <input type="image" src="static/cat.jpg" value="图片按钮" width="80">
+
+</form>
+
+
+<h1>HTML5新标签及新特性</h1>
+<h2>文档类型设定、字符集设定</h2>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<h2>常用新标签</h2>
+<h3>datalist</h3>
+<input type="text" value="请输入姓名" list="names">
+<datalist id="names">
+    <option>张三</option>
+    <option>李四</option>
+    <option>王五</option>
+</datalist>
+
+ <input type="text" value="请输入姓名" list="names1">
+    <datalist id="names1">
+        <option>张三</option>
+        <option>李四</option>
+        <option>王五</option>
+    </datalist>
+
+<h3>fieldset</h3>
+<fieldset>
+    <legend>用户登录</legend>
+    用户名：<input type="text" maxlength="16">
+    <br>
+    密码：<input type="password">
+</fieldset>
+<fieldset>
+    <legend>性别</legend>
+    性别：
+    <input type="radio" name="gender">男
+    <input type="radio" name="gender">女
+    <input type="radio" name="gender">保密
+</fieldset>
+
+<h2>新增的input type属性值</h2>
+<form action="https://www.baidu.com" method="post" name="typevalue">
+email: <input type="email">
+<br>
+tel: <input type="tel">
+<br>
+url: <input type="url">
+<br>
+number: <input type="number">
+<br>
+search: <input type="search">
+<br>
+range: <input type="range">
+<br>
+time: <input type="time">
+<br>
+date: <input type="date">
+<br>
+datetime: <input type="datetime-local">
+<br>
+month: <input type="month">
+<br>
+week: <input type="week">
+<br>
+color: <input type="color">
+<br>
+<input type="submit" value="提交按钮">
+</form>
+
+<h2>新增的input属性</h2>
+<form action="http://www.baidu.com" method="post" name="property">
+请输入用户名：<input type="text" placeholder="请输入用户名">
+<br>
+请输入密码：<input type="text" autofocus="autofocus" value="自动获取焦点">
+<br>
+请选择要上传的文件：<input type="file" multiple>
+<br>
+自动完成：<input type="text" autocomplete="on" name="complete" placeholder="下次自动补足输入内容">
+<br>
+必填项：<input type="text">
+<br>
+获取焦点快捷键：<input type="text" accesskey="e" placeholder="获取焦点快捷键alt+e">
+<br>
+<input type="submit" value="提交按钮">
+<br>
+</form>
+<br>
+
+<h1>综合案例</h1>
+<form action="https://www.baidu.com" method="post" name="arch">
+    <fieldset>
+        <legend>学生档案</legend>
+        姓  名：<input type="text" placeholder="请输入姓名" autofocus="autofocus">
+        <br>
+        <label>手机号：<input type="tel" placeholder="请输入手机号"></label>
+        <br>
+        邮箱：<input type="email">
+        <br>
+        学院：<input type="text" list="school">
+            <datalist id="school">
+                <option>计算机学院</option>
+                <option>自动化学院</option>
+                <option>工商管理学院</option>
+            </datalist>
+        <br>
+        出生日期：<input type="date">
+        <br>
+        语文成绩：<input type="number" max="100" min="0" value="0">
+        <br>
+        数学成绩：<meter max="100" min="0" value="56" low="60"></meter>
+        <br>
+        英语成绩：<meter value="80" low="60" max="100" min="0"></meter>
+        <br>
+        <input type="submit" value="提交">
+        <br>
+        <input type="reset" value="重置">
+        <br>
+
+    </fieldset>
+
+
+</form>
+
+
+
+<h1>多媒体标签</h1>
+<h2>embed定义嵌入的内容</h2>
+<embed src="http://player.video.iqiyi.com/44cb2ab93ef163fea5a206e52da7c390/0/0/v_19rqyv6lfo.swf-albumId=1268727400-tvId=1268727400-isPurchase=0-cnId=3"
+       type="application/x-shockwave-flash" quality="high" width="480" height="350"
+       align="middle" allowScriptAccess="always">
+
+
+<h2>audio播放音频</h2>
+
+<audio src="static/Dream%20for%20Today.mp3"
+       controls="controls" autoplay="autoplay" loop="loop">
+    提示语：您的浏览器不支持该audio标签
+</audio>
+<br>
+
+<audio controls preload="auto" loop="loop">
+    <source src="static/Dream%20for%20Today.mp3">
+    <source src="static/Dream%20for%20Today.wav">
+    <source src="static/Dream%20for%20Today.ogg">
+    提示语：您的浏览器不支持该audio标签
+</audio>
+<br>
+
+<h2>video播放视频</h2>
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面切换</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .hide{
+            display: none;
+        }
+        .outer{
+            position: relative;
+        }
+        .tab_title{
+            width: 100%;
+            height: 40px;
+            background-color: lightgray;
+            color: #3f4a51;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        /*方式一：float
+        ul.tab_title>li{
+            list-style: none;
+            width: 160px;
+            height: 40px;
+            float: left;
+            text-align: center;
+            line-height: 40px;
+            }
+        */
+        /*方式二：inline-block*/
+        ul.tab_title>li{
+            list-style: none;
+            width: 160px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            }
+
+        .detail{
+            background-color: wheat;
+            width: 100%;
+            height: 1000px;
+            position: absolute;
+            top: 40px;
+            left: 0;
+        }
+        .active{
+            background-color:#e21f37;
+            color:white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="outer">
+    <ul class="tab_title">
+        <li class="intro active" relation="detail1">商品介绍</li>
+        <li class="pack" relation="detail2">规格与包装</li>
+        <li class="after" relation="detail3">售后保障</li>
+    </ul>
+    <div class="detail">
+        <div class="introduce" id="detail1">商品详细信息<br>商品详细信息</div>
+        <div class="package hide" id="detail2">规格与包装详情<br>规格与包装详情</div>
+        <div class="aftersale hide" id="detail3">售后保障详情<br>售后保障详情</div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    $(".tab_title li").click(function () {
+        // 选中li时，自己：背景变红，字体变白；其它：背景色为空，字体变灰
+        $(this).addClass("active");
+        $(this).siblings().removeClass("active");
+        var $relation_value = $(this).attr("relation");
+        console.log("#"+$relation_value);
+        /*
+        字符串拼接
+        python中，s=123 和 "s"没有任何关系。
+        同理，这里的"#$relation_value"跟获取到的变量也没有任何关系。
+         */
+
+        // 选中li时，关联显示detail页面
+        $("#"+$relation_value).removeClass("hide");
+        $("#"+$relation_value).siblings().addClass("hide");
+    })
+
+
+</script>
+
+</body>
+</html>

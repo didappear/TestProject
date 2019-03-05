@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery 左侧菜单</title>
+    <style>
+        .left_page{
+            background-color: wheat;
+            width: 20%;
+            height: 1200px;
+            float: left;
+        }
+        .right_page{
+            background-color: lightgreen;
+            opacity: 0.5;
+            width: 80%;
+            height: 1200px;
+            float: left;
+        }
+        .item{
+            margin: 20px;
+        }
+        .title{
+            background-color: green;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+        }
+        .detail{
+            margin: 5px;
+        }
+        .hide{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="left_page">
+        <div class="item">
+            <div class="title">菜单一</div>
+            <div class="detail">
+                <p>1111</p>
+                <p>2222</p>
+                <p>3333</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">菜单二</div>
+            <div class="detail hide">
+                <p>1111</p>
+                <p>2222</p>
+                <p>3333</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">菜单三</div>
+            <div class="detail hide">
+                <p>1111</p>
+                <p>2222</p>
+                <p>3333</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="right_page"></div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    $(".title").click(function () {
+        $(this).next().removeClass("hide");
+        // $(this).parent().siblings(".detail").addClass("hide");
+        $(this).parent().siblings().children(".detail").addClass("hide");
+    });
+</script>
+
+
+</body>
+</html>

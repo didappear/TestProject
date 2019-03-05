@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>索引页</title>
+    <link rel="icon" href="http://static.runoob.com/images/favicon.ico">
+    <!--<link rel="stylesheet" href="mystyle.css" type="text/css">-->
+    <style type="text/css">
+        @import "mystyle.css";
+
+    </style>
+    <style>
+        p[class$="first"]{
+            color: limegreen;
+        }
+
+        div[class="div"]{
+            color: navy;
+        }
+
+        /*a:link{*/
+            /*color: firebrick;*/
+        /*}*/
+        a:link {color: #FF0000}
+        a:visited{
+            color: #26d085;
+        }
+        a:hover{
+            color: #ff00ff;
+        }
+        a:active{
+            color: #0000ff;
+        }
+
+        .top{
+            background-color: rebeccapurple;
+            width: 100px;
+            height: 100px;
+        }
+        .bottom{
+            background-color: green;
+            width: 100px;
+            height: 100px;
+        }
+        .outer:hover .bottom{
+            background-color: yellow;
+        }
+        /* 下面这个无效。注意:一定是outer:hover  控制outer里某一个标签,否则无效*/
+        .top:hover .bottom{
+            background-color: pink;
+        }
+        div p:before{
+            content: "hello world";
+            color: chocolate;
+            display: block;
+        }
+        div p:after{
+            content: "hello world";
+            color: chocolate;
+            display: block;
+        }
+        div{
+            border:2px solid #26d085;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+<h1>Index</h1>
+<p id="fisrtparagraph" class="paragraph01 first" >
+    <a href="https://www.baidu.com" target="_blank">这是一个a标签指向百度</a><br>
+    这是一个段落这是一个段落这是一个段落这是一个段落
+    这是一个段落这是一个段落这是一个段落这是一个段落
+    这是一个段落这是一个段落这是一个段落这是一个段落
+</p>
+<p id="secondparagraph" class="paragraph02 first test">
+    这是第二个段落这是第二个段落这是第二个段落
+    这是第二个段落这是第二个段落这是第二个段落
+    这是第二个段落这是第二个段落这是第二个段落
+    这是第二个段落这是第二个段落这是第二个段落
+</p>
+<p id="thirdparagraph" class="paragraph03">
+    这是第二个段落这是第二个段落这是第二个段落
+    这是第二个段落这是第二个段落这是第二个段落
+    这是第二个段落这是第二个段落这是第二个段落
+    这是第二个段落这是第二个段落这是第二个段落
+</p>
+
+<a href="https://www.douban.com" target="_blank">这是一个a标签指向豆瓣</a><br>
+
+<div class="div">
+    <p>这是一个div下的p标签</p>
+    <span>这是一个div下的span内联标签</span>
+    <ol>
+        <li>有序列表1</li>
+        <li>有序列表2</li>
+        <li>有序列表3</li>
+    </ol>
+</div>
+<p>精灵有<span style="color: blue">蓝色的</span>眼睛；
+    人类有<span style="color: saddlebrown">棕色的</span>眼睛。</p>
+<p>
+    这是第三个段落这是第三个段落这是第三个段落
+    这是第三个段落这是第三个段落这是第三个段落
+    这是第三个段落这是第三个段落这是第三个段落
+</p>
+
+<p>
+    这是第四个段落
+</p>
+
+<span>这是一个span标签</span>
+
+<div class="outer">
+    <div class="top">
+        top
+    </div>
+    <div class="bottom">
+        bottom
+    </div>
+</div>
+
+<div>
+    css中一些属性不能被继承<p>比如border，margin,padding,background</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格正反选</title>
+</head>
+<body>
+<div>
+    <button>全选<a href="#"></a></button>
+    <button>反选</button>
+    <button>取消</button>
+</div>
+<hr>
+<table border="1px" cellpadding="3px">
+    <tr>
+        <th></th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>班级</th>
+    </tr>
+    <tr>
+        <th><input type="checkbox"></th>
+        <td>11</td>
+        <td>11</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <th><input type="checkbox"></th>
+        <td>22</td>
+        <td>22</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <th><input type="checkbox"></th>
+        <td>333</td>
+        <td>333</td>
+        <td>333</td>
+    </tr>
+</table>
+
+<!--JS实现-->
+<script>
+    var btn_ele = document.getElementsByTagName("button");
+    var checkb_ele = document.getElementsByTagName("input");
+
+    // 1.遍历按钮，判断按钮文本，进行点击对应操作
+    for (var i=0; i<btn_ele.length; i++){
+        btn_ele[i].onclick=function () {
+            if(this.innerText == "全选"){
+                // 遍历input，添加属性checked="checked"
+                for(var j=0; j<checkb_ele.length; j++) {
+                    // checkb_ele[j].checked = "checked";
+                    checkb_ele[j].checked = true;
+                }else if(this.text == "反选"){
+
+                }
+                else{ // 取消
+                    for(var j=0; j<checkb_ele.length; j++){
+                        checkb_ele[j].checked = false;
+                    }
+
+                }
+            }
+        }
+    }
+
+
+        btn_ele[i].onclick=function () {
+           if(this.innerText == "全选"){
+
+            // 遍历input，添加属性checked="checked"
+            for(var j=0; j<checkb_ele; j++) {
+                // checkb_ele[j].checked = "checked";
+                checkb_ele[j].checked = true;
+            }else if(this.text == "全选"){
+
+            }else {
+
+            }
+        }
+
+</script>
+
+<!--jquery实现-->
+<!--<script src="https://code.jquery.com/jquery-3.3.1.js"></script>-->
+<!--<script>-->
+    <!--$("button").click(function () {-->
+        <!--if ($(this).text()=="全选"){-->
+            <!--$("input").prop("checked",true);-->
+        <!--}else if($(this).text()=="反选"){-->
+            <!--// 取当前CheckBox的相反值。-->
+            <!--// 此时针对每一个CheckBox操作不是统一的操作，需要用循环-->
+            <!--$("input").each(function () {-->
+                <!--// console.log($(this)); //遍历所有input对象-->
+                <!--$(this).prop("checked",!$(this).prop("checked"));-->
+            <!--});-->
+        <!--}else{-->
+            <!--$("input").prop("checked",false);-->
+        <!--}-->
+    <!--})-->
+<!--</script>-->
+
+
+
+</body>
+</html>
